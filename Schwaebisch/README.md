@@ -1,7 +1,7 @@
 # Ålôetong Audio Transkriptio
 
 > [!IMPORTANT]
-> **Wichtige Vorabinfo:** des Ganze wird bloß funkioniera, wann Ihr Rechner **mindestens 8GB Arbaetsspeicher** håt. Wann Se an Rechner mit bloß 4Gb Arbaetsspeicher hent, nå wôeß e ao net.
+> **Wichtige Vorabinfo:** des Ganze wird bloß funkioniera, wann Ihr Rechner **mindestens 8GB Arbaetsspeicher** håt. Wann Se an Rechner mit bloß 4GB Arbaetsspeicher hent, nå wôeß e ao net.
 
 
 Dåhanna send vier Notebooks aglegt, mô mr MP3-Dateia (od andere Dateiformate ao, oefach ausprobiera) transkribiera, also als Text-Datei speichera kå. Sotte Notebooks send gleichzeitig Code ond a Erklärong. Mr kå also interaktiv drmit schaffa, em Prinzip braucht mr koene Vorkenntniss em Progammiera.
