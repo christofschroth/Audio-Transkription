@@ -4,7 +4,15 @@ Hier finden Sie einen Code, um Audio Dateien (insbesondere MP3) zu transkribiere
 
 *Hinweis:* die Anleitung wird für Windows beschrieben, funktioniert aber auch alles für Linux oder MacOSX.
 
-## Schritt 0: Installation von Jupyter-Notebook
+# Schitt 0: ffmpeg installieren
+
+ffmpeg ist eine Standard-Bibliothek, um Audio- bzw. Videodateien zu bearbeiten. Wer sie standardmäßig noch nicht installiert hat, findet hier
+
+- eine Anleitung auf Deutsch [LINK](https://de.wikihow.com/FFmpeg-unter-Windows-installieren),
+- eine Anleitung auf Englisch [LINK](https://phoenixnap.com/kb/ffmpeg-windows).
+
+
+## Schritt 1: Installation von Jupyter-Notebook
 
 a) Laden Sie die aktuelle Version von Miniforge herunter: https://conda-forge.org/miniforge/
 ![](https://github.com/christofschroth/Audio-Transkription/blob/main/Images/Miniforge-1-Download.png)
@@ -36,7 +44,7 @@ e) Bestätigen Sie die Installation mit der Eingabe von y-Enter.
 f) Die Installation beginnt. Conda zieht nun einige Pakete aus dem Internet und führt die Installation aus (dies kann einige Minuten dauern).
 ![](https://github.com/christofschroth/Audio-Transkription/blob/main/Images/Miniforge-Install-6-Pakete.png)
 
-## Schritt 1: Pakete laden
+## Schritt 2.1: Pakete laden
 
 a) Laden Sie die Notebooks (die ipynb-Dateien) herunter.
 
@@ -44,14 +52,14 @@ b) Öffnen Sie nun Jupyter-Notebook und öffnen Sie *1_Install_Packages*. Dort f
 
 Schritt 1 müssen Sie nur einmalig durchführen.
 
-## Schritt 2: Whisper Modelle laden
+## Schritt 2.2: Whisper Modelle laden
 
 Öffnen Sie *2_Load_Whisper_Models*, um die Modelle auf Ihren Rechner herunterzuladen. Auch diesen Schritt müssen Sie nur einmalig durchführen.
 
-## Schritt 3: Transkription für Dummies
+## Schritt 2.3: Transkription für Dummies
 
 Dieses Notebook (3_Transkription_Fuer_Dummies) richtet sich an Menschen, die keinerlei Programmiererfahrung haben. Das Notebook ist interaktiv und erfordert keine Programmierkenntnisse.
 
-## Schritt 4: Transkription für Fortgeschrittene (optional)
+## Schritt 2.4: Transkription für Fortgeschrittene (optional)
 
 Das Notebook *4_Transkription_fuer_Fortgeschrittene* kann von Leuten benutzt werden, die etwas Programmiererfahrung (Code anpassen) haben. Man kann mit diesem ein paar Schritte überpringen.

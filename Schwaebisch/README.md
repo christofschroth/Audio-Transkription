@@ -11,7 +11,17 @@ Dåhanna send vier Notebooks aglegt, mô mr MP3-Dateia (od andere Dateiformate a
 > [!NOTE]
 > Mr könnt sich jetzt fråga, wårom mr des net oefach mit ara KI macht. Dia Antwort ischd: mr kå net ällas oefach so en dia Dienste naeschiaba. Des håt en dr Regel mit am Dataschutz (DSGVO) zom doa. Deswega kå s sennvoll sae, des ganze lokal zom laofa lao.
 
-## Schritt 0: Installatio vo Jupyter-Notebook 
+
+## Schritt 0: Installatio vo ffmpeg
+
+Für s Arbaeta mit Audio- bzw. Videodateia braucht mr für Windows d Bibliothek ffmpeg. Wer des
+scho installiert håt, kå glei zor Installatio vo Miniforge (Schritt 1) sprenga.
+
+A separate Ålôetong fendat sich onter dem [Link als pdf](https://github.com/christofschroth/Audio-Transkription/blob/main/Images/Install-ffmpeg.pdf).
+
+
+
+## Schritt 1: Installatio vo Jupyter-Notebook 
 
 a) De aktuell Versio vo Miniforge ralada, Link: https://conda-forge.org/miniforge/
 ![](https://github.com/christofschroth/Audio-Transkription/blob/main/Images/Miniforge-1-Download.png)
@@ -42,7 +52,7 @@ e) Nômål mit `y-Enter` d Installatio bestätiga.
 f) Jetzt beginnt de aegentliche Installatio. Conda ziaht a Beig Pakete aus am Internet ond führt d Installatio aus (sell kå a paar Minut gao, je nåch Internetvrbindong).
 ![](https://github.com/christofschroth/Audio-Transkription/blob/main/Images/Miniforge-Install-6-Pakete.png)
 
-## Schritt 1: Pakete lada
+## Schritt 2.1: Ausfürong en Python - Pakete lada
 
 a) Jetzt vo Håd dia Notebooks (des send dia ipynb-Dateia) ralada.
 
@@ -52,15 +62,15 @@ c) En *1_Install_Packages* naesprenga. Dort send de nächste Åweisonga.
 
 *Hinweis*: Schritt 1 muaß mr bloß oemål ausführa.
 
-## Schritt 2: Whisper Modelle lada
+## Schritt 2.2: Whisper Modelle lada
 
 Mr muaß no oemalig de aegentliche Modelle ralada. Dådrzua *2_Load_Whisper_Models* öffna ond durchlaufa lao.
 
-## Schritt 3: Transkriptio für Dummies
+## Schritt 2.3: Transkriptio für Dummies
 
 Sell Notebook (3_Transkription_Fuer_Dummies) ischd gschrieba für Leut, mô Null Programmiererfahrong hent. S ischd interaktiv ond braucht koe Vorerfahrong em Programmiera. 
 
-## Schritt 4: Transkriptio für Fortgeschrittene (optional)
+## Schritt 2.4: Transkriptio für Fortgeschrittene (optional)
 
 Selligs Notebook (4_Transkription_fuer_Fortgeschrittene) kå vo Leut gnutzt wera, mô schao a weng Programmiererfahrong (Code åpassa) hent. 
 Mit dem Notebook kå mr sich s Leba a wenga oefacher macha ond a paar Schritt übersprenga.
